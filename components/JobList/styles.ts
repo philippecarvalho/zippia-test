@@ -3,6 +3,7 @@ import styled, { css } from "styled-components";
 export const Wrapper = styled.div`
   padding: 0 0 0 14px;
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 `
 
