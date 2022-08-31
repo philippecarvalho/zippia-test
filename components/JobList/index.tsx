@@ -47,10 +47,12 @@ export const JobList: React.FC<props> = ({ jobs }) => {
       </S.Wrapper>
 
 
-      <div style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap' }}>
-        {jobs.filter(filterJobsLastSevenDays).filter(filterJobsByCompanyName).map((job) => (
-          <JobCard key={job.jobId} job={job} />
-        ))}
+      <div style={{}}>
+        <S.JobListWrapper>
+          {jobs.filter(filterJobsLastSevenDays).filter(filterJobsByCompanyName).map((job) => (
+            <JobCard key={job.jobId} job={job} />
+          ))}
+        </S.JobListWrapper>
       </div>
     </>
   )

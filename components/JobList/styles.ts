@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const Wrapper = styled.div`
-  padding: 0 0 0 14px;
+  padding: 0 0 0 10px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -38,13 +38,21 @@ export const SearchBar = styled.input`
   height: 28px;
   border-radius: 4px;
   border: none;
-`
+  background-color: #fff;
+  `
 
 export const SearchWrapper = styled.div`
+  background-color: #fff;
   height: 32px;
   border-radius: 4px;
   border: 1px solid #9ea5a9;
   display: inline-flex;
   align-items: center;
   padding: 5px;
+`
+
+export const JobListWrapper = styled.div`
+  display: flex;
+  justify-Content: space-around;
+  flex-Wrap: wrap;
 `

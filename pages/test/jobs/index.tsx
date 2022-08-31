@@ -8,7 +8,7 @@ interface props {
 
 const Jobs: NextPage<props> = ({ jobs }) => {
   return (
-    <div>
+    <div style={{ padding: 10 }}>
       <h1 style={{ margin: 14 }}>Job Board</h1>
       <JobList jobs={jobs} />
     </div>
