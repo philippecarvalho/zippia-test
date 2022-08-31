@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components'
 const GlobalStyle = createGlobalStyle`
   html,
   body {
+    background-color: #fbfbfb;
     color: ${({ theme }) => theme.colors.primary};
     padding: 0;
     margin: 0;
@@ -16,8 +17,22 @@ const GlobalStyle = createGlobalStyle`
   }
 
   * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
   }
+
+  ul li {
+    list-style: none;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+  } 
 `
 
 export default GlobalStyle
