@@ -42,7 +42,7 @@ export const SearchBar = styled.input`
 export const SearchWrapper = styled.div`
   height: 32px;
   border-radius: 4px;
-  border: 1px solid #333; 
+  border: 1px solid #9ea5a9;
   display: inline-flex;
   align-items: center;
   padding: 5px;

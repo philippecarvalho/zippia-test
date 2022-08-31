@@ -38,7 +38,7 @@ export const JobList: React.FC<props> = ({ jobs }) => {
       <S.Wrapper>
         <S.SearchWrapper>
           <S.SearchBar value={companyNameInput} onChange={e => setCompanyNameInput(e.target.value)} placeholder='Company name' />
-          <HiSearch />
+          <HiSearch color='#9ea5a9' />
         </S.SearchWrapper>
 
         <S.FilterButton onClick={filterJobs} shouldFilter={shouldFilterByDate}>
